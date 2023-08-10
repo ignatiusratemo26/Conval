@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="20dp"
+    android:background="@drawable/conval_gradient"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/header_app_name_text"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:fontFamily="serif-monospace"
+        android:gravity="center"
+        android:src="@drawable/conval_no_background"
+        android:text="CONVAL"
+        android:textAlignment="gravity"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/header_theme_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/app_theme"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

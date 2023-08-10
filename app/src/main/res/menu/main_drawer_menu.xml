@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <!-- this is the item for the unit converter in the menu-->
+        <item android:id="@+id/nav_unit_converter"
+            android:icon="@drawable/unit_converter_icon"
+            android:title="Unit converter" />
+
+    </group>
+
+</menu>
